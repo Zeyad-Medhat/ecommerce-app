@@ -1,15 +1,24 @@
 # Node modules
 node_modules/
-**/node_modules/
+npm-debug.log
+yarn-error.log
 
-# Angular build
+# Build
 dist/
-frontend/dist/
+build/
+.tmp/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment files
+# Environment
 .env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
